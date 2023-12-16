@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ActionExamples</RootNamespace>
     <AssemblyName>ActionExamples</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,10 +55,6 @@
     <ProjectReference Include="..\..\App\App.csproj">
       <Project>{880c53c6-cdd1-4d17-ad14-b6ece784d9a9}</Project>
       <Name>App</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\CoreLib\CoreLib.csproj">
-      <Project>{0dede00f-7e56-49f3-8a28-ddbb1f83a8b8}</Project>
-      <Name>CoreLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\FileHandler\FileHandler.vcxproj">
       <Project>{d9c82451-5129-4f70-9d78-f292d3f2b9ab}</Project>
